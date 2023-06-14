@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0"
+  },
+  "name": "tp4-alejandro-aquino",
+  "description": "Trabajo Práctico N°4-1: Desarrollo de Servidor Back-end",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aquinogonzalo/tp4-alejandro-aquino.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Aquino Alejandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aquinogonzalo/tp4-alejandro-aquino/issues"
+  },
+  "homepage": "https://github.com/aquinogonzalo/tp4-alejandro-aquino#readme"
+}
