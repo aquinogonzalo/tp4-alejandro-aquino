@@ -1,8 +1,11 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
 
-router.get("/", (req, res) => {
-    res.send("Hello World!");
-});
+const serverFunctions = require("../controllers/server.js");
 
-module.exports = router
+router.get('/', serverFunctions.get);
+router.post('/', serverFunctions.post);
+router.put('/', serverFunctions.put);
+router.delete('/', serverFunctions.deletee);
+
+module.exports = router; 
