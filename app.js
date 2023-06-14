@@ -10,7 +10,7 @@ app.use(cors()); // Configuración del middleware CORS para permitir solicitudes
 app.use(morgan("combined")); // Configuración del middleware Morgan para el registro de solicitudes
 app.use(express.json()); // Configuración del middleware para analizar el cuerpo de la solicitud como JSON
 
-const routes = require("./routes/routes.js");
+const routes = require("./routes/index.js");
 app.use("/", routes); // Configuración de las rutas en el punto de entrada '/'
 
 const port = 5000;
